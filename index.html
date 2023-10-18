@@ -17,15 +17,20 @@
       }
 
       iframe {
-        min-width: 500px; /* Minimum width of 500px on desktop */
-        width: 100%; /* Responsive to smaller screens */
+        width: 100%; /* Responsive width */
+      }
+
+      @media (min-width: 500px) {
+        iframe {
+          min-width: 500px; /* Minimum width of 500px on desktop */
+        }
       }
     </style>
   </head>
   <body>
     <main>
       <p>
-        <iframe title="Somesuch Stories – Issue 7" allowtransparency="true" height="315" style="border: none; height:500px;" scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=ntppi-108dee3-pbblog-playlist&share=0&download=0&rtl=0&fonts=Arial&skin=1&font-color=auto&logo_link=none&order=serial&limit=11&filter=all&ss=b271a6e5454d85d89b97f721f2891d62&btn-skin=f6f6f6&size=315" loading="lazy" allowfullscreen=""></iframe>
+        <iframe title="Somesuch Stories – Issue 7" allowtransparency="true" height="500" style="border: none; height: 500px;" scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=ntppi-108dee3-pbblog-playlist&share=0&download=0&rtl=0&fonts=Arial&skin=1&font-color=auto&logo_link=none&order=serial&limit=11&filter=all&ss=b271a6e5454d85d89b97f721f2891d62&btn-skin=f6f6f6&size=315" loading="lazy" allowfullscreen=""></iframe>
       </p>
     </main>
     <script src="index.js"></script>
